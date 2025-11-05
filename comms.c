@@ -1,5 +1,5 @@
 #include "header.h"
-//jebata
+//jebataq
 // 0xFF/0xFF/ADDR/CMD/NumOfData/Data/Checksum/0xFF/0xFF//
 
 uint8_t RXbuf[1024];
