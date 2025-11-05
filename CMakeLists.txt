@@ -35,7 +35,13 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(BFCG_10kACS BFCG_10kACS.c LCD.c comms.c misc.c MCP4716.c)
+add_executable( BFCG_10kACS 
+                BFCG_10kACS.c
+                LCD.c comms.c
+                misc.c
+                MCP4716.c
+                current_sensing.c
+                )
 
 pico_set_program_name(BFCG_10kACS "BFCG_10kACS")
 pico_set_program_version(BFCG_10kACS "0.1")
